@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "resonance",
+  "version": "${version}",
+  "name": "Resonance",
+  "description": "See every sound. Even the ones you can't hear.",
+  "authors": ["Resonance"],
+  "license": "MIT",
+  "icon": "assets/resonance/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.resonance.Resonance"] },
+  "mixins": ["resonance.mixins.json"],
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
